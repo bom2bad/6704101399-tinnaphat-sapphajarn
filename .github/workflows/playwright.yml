@@ -21,8 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update TypeScript
-         run: npm install --save-dev typescript@latest
 
       - name: Build Quasar SPA
         run: npx quasar build
