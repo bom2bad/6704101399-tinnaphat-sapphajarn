@@ -17,9 +17,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.19.0' # ใช้ Node.js เวอร์ชัน 18 หรือสูงกว่า
-
+         
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Update TypeScript
+         run: npm install --save-dev typescript@latest
 
       - name: Build Quasar SPA
         run: npx quasar build
