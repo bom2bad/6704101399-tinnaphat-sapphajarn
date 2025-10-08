@@ -38,7 +38,7 @@
   </div>
 </template>
 
-<script lang ="ts">
+<script lang="ts">
 import { useQuasar } from 'quasar'
 import { ref } from 'vue'
 
