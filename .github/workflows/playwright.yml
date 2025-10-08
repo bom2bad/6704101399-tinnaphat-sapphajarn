@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # ใช้ Node.js เวอร์ชัน 18 หรือสูงกว่า
+          node-version: '20.19.0' # ใช้ Node.js เวอร์ชัน 18 หรือสูงกว่า
 
       - name: Install dependencies
         run: npm install
